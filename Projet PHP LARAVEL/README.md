@@ -1,10 +1,10 @@
-Projet version PHP LARAVEL
+# Projet version PHP LARAVEL
 
-Prérequis: 
+## Prérequis: 
 - avoir un serveur PHP (8.0)
 - git clone le répertoire
 
-Installation:
+## Installation:
 
 - composer install
 - cp .env.example .env (vérifier que vous avez une base de données du même nom, login et mot de passe)
