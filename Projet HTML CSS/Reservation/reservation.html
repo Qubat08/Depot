@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang = "fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="reservation.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../Images/favicon-32x32.png">
+<body>
+    <header><a href="../Acceuil/Acceuil.html" class ="logo"><img class= "logo" src="../Images/logo.png" alt=""></a></header>
+    <section class= "banniere">
+        <h2>Réserver une table</h2>
+        <div class = "container">
+            <div class ="img"></div>
+            <div class="content">
+                <H3>Réservation</H3>
+                <form>
+                    <div class = "formulaire">
+                        <select name="days" id = "days">
+                            <option value="Mardi">Mardi</option>
+                            <option value="Mercredi">Mercredi</option>
+                            <option value="Jeudi">Jeudi</option>
+                            <option value="Vendredi">Vendredi</option>
+                            <option value="Samedi">Samedi</option>
+                            <option value="Dimanche">Dimanche</option>
+                        </select>
+                        <select name="numero" id = "numero">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                        <select name="month" id="month">
+                            <option value="Janvier">Janvier</option>
+                            <option value="Fevrier">Fevrier</option>
+                            <option value="Mars">Mars</option>
+                            <option value="Avril">Avril</option>
+                            <option value="Mai">Mai</option>
+                            <option value="Juin">Juin</option>
+                            <option value="Juillet">Juillet</option>
+                            <option value="Aout">Aout</option>
+                            <option value="Septembre">Septembre</option>
+                            <option value="Octobre">Octobre</option>
+                            <option value="Novembre">Novembre</option>
+                            <option value="Décembre">Décembre</option>
+                        </select>
+                        <select name="time" id="time">
+                            <option value="10h00">10h00</option>
+                            <option value="11h00">11h00</option>
+                            <option value="12h00">12h00</option>
+                            <option value="13h00">13h00</option>
+                            <option value="14h00">14h00</option>
+                            <option value="18h00">18h00</option>
+                            <option value="19h00">19h00</option>
+                            <option value="20h00">20h00</option>
+                            <option value="21h00">21h00</option>
+                            <option value="22h00">22h00</option>
+                        </select>
+                    </div>
+                    <div class ="formulaire">
+                        <input type="text" placeholder="Saisir votre nom" required="required" id = "name">
+                        <input type="text" placeholder="Saisir votre téléphone" required="required" id = "num">
+                    </div>
+                    <div class = "formulaire">
+                        <input type="number" placeholder="Saisir le nombre de personnes" required="required" min = "1" max ="30" id = "couvert">
+                        <input type="submit" value ="Réserver" onclick = "reservation()">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="reservation.js" type = "text/javascript"></script>
+</body>
+</html>
