@@ -1,4 +1,8 @@
-Projet version 12/12/2021
+Projet version PHP LARAVEL
+
+Prérequis: 
+- avoir un serveur PHP (8.0)
+- git clone le répertoire
 
 Installation:
 
