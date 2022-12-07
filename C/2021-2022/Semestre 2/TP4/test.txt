@@ -1,0 +1,16 @@
+le but du main
+
+LR x;
+ELement2p* p;
+LR_creer(&x);
+LR_inserer(&x,1); afficher(x)
+__________(&x,2); afficher(x)
+__________(&x,3); afficher(x)
+__________(&x,4); afficher(x)
+
+p = LR_recherche(x,5); printf("%p",p);
+________________(x,3);_______________;
+
+LR_supprimier(&x,p); afficher(x);
+
+vider(&x);

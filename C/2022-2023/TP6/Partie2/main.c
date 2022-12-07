@@ -1,0 +1,81 @@
+#include "liste/liste.h"
+#include "table_de_hachage/table_de_hachage.h"
+
+int lireFichier(TH *tab, char *nomFichier)
+{
+    FILE *fichier;
+    fichier = fopen(nomFichier, "r");
+
+    char buffer[100];
+    char temp[27];
+    int test = 0;
+    int total = 0;
+    if (fichier != NULL)
+    {
+        do
+        {
+
+            if (strlen(buffer) < 27 && strlen(buffer) > 0)
+            {
+                if (strcmp(temp, buffer))
+                {
+                    strcpy(temp, buffer);
+                    // printf("%s\n", temp);
+                    cellule *c = (cellule *)malloc(sizeof(cellule));
+                    initCellule(c, temp);
+                    inserer_TH(tab, c);
+                    total += 1;
+                }
+            }
+        } while (fscanf(fichier, "%s", buffer) != EOF);
+    }
+    return total;
+}
+
+int main(void)
+{
+
+    // liste2C liste;
+    // initListe2C(&liste);
+    // int total = 0;
+
+    // for (int i = 0; i < 5; i++)
+    // {
+
+    //     char val[27];
+    //     printf("\nSaisir mot : ");
+    //     scanf("%s", val);
+
+    //     inserer_liste(&liste, val);
+    //     afficherListe(liste);
+    // }
+    // afficherListe(liste);
+
+    // supprimer_liste2C(&liste, liste_Rechercher(liste, "test"));
+
+    // afficherListe(liste);
+
+    // total = lireFichier(&liste, "../texte1.txt");
+    // afficherListe(liste);
+
+    // printf("Mot récupérés : %d\n", total);
+    // compterListe(liste);
+
+    // viderListe(&liste);
+
+    // printf("%lld\n", convertir_ch_long("Abc"));
+
+    TH tab;
+    int k = 0;
+
+    initialiser_TH(&tab);
+    // afficher_TH(tab);
+    k = lireFichier(&tab, "../histoire_quebec.txt");
+    // afficher_TH(tab);
+    printf("Mot total : %d \n", k);
+
+    printf("Mot dans le TH : %d \n", compter_TH(tab));
+
+    detruire_TH(&tab);
+    return 0;
+}
