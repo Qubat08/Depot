@@ -7,5 +7,5 @@ en python en utilisant du JSON et des fichiers textes
 
 
 
-## Execution: 
+## Exécution: 
 py "Projet Python.py"
