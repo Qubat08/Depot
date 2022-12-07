@@ -1,7 +1,7 @@
 # Depot
 Répertoire de plusieurs projets de Quentin BATISTE
 
-##Liste des projets disponibles : 
+## Liste des projets disponibles : 
 
 - Répertoire C : Tous les travaux réalisés en C (des bases jusqu'aux algorithmes sur les graphes)
 - Projet HTML/CSS : Projet HTML/CSS/JS, découverte des applications webs 
