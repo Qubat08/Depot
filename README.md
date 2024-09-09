@@ -13,3 +13,4 @@ Répertoire de plusieurs projets de Quentin BATISTE
 - Projet OpenGL: Projet en OpenGL (C++), pour réaliser une scène avec des balles se déplaçant dans un cube.
 - Projet Denoise Image: Projet en python pour enlever du flou sur une image en utilisant différentes techniques / technologies (OpenMP, OpenMPGPU, Kokkos)
 - Projet Optimisation : Projet en C/Python (Ortools) pour résoudre des problèmes d'optimisation / recherche opérationnelle comme le problème du voyageur de commerce ou encore le problème de sac à dos en valeur entière (knapsack problem)
+- Projet stage: Projet qui contient les différents travaux réalisés en stage (lancement d'entrainement distribué de modèle de classification d'image, ajout d'une fonctionnalité pour la prise de photo dans l'application TensorflowLite)

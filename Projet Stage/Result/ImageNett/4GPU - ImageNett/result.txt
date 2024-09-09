@@ -1,0 +1,21 @@
+[2]<stdout>:62/62 - 23s - loss: 1.0985 - accuracy: 0.6604
+[1]<stdout>:62/62 - 23s - loss: 1.7953 - accuracy: 0.4611
+[0]<stdout>:62/62 - 23s - loss: 0.9679 - accuracy: 0.6930
+[3]<stdout>:62/62 - 23s - loss: 1.0005 - accuracy: 0.6782
+[0]<stdout>:Test Loss: 1.2155617475509644
+[0]<stdout>:Test Accuracy: 0.6231846809387207
+
+
+
+
+
+[3]<stdout>:Training time: 37.98 minutes
+[0]<stdout>:Training time: 37.98 minutes
+[2]<stdout>:Training time: 37.98 minutes
+[1]<stdout>:Training time: 37.98 minutes
+[2]<stdout>:62/62 - 23s - loss: 1.4133 - accuracy: 0.7141
+[1]<stdout>:62/62 - 23s - loss: 1.3411 - accuracy: 0.7075
+[3]<stdout>:62/62 - 23s - loss: 1.5868 - accuracy: 0.6861
+[0]<stdout>:62/62 - 23s - loss: 1.4869 - accuracy: 0.7190
+[0]<stdout>:Test Loss: 1.4570177793502808
+[0]<stdout>:Test Accuracy: 0.7066879272460938

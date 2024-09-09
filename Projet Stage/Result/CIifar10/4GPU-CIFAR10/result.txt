@@ -1,0 +1,10 @@
+[0]<stdout>:Training time: 3.77 minutes
+[1]<stdout>:Training time: 3.77 minutes
+[3]<stdout>:Training time: 3.77 minutes
+[2]<stdout>:Training time: 3.77 minutes
+[0]<stdout>:313/313 - 1s - loss: 0.7304 - accuracy: 0.7717
+[2]<stdout>:313/313 - 1s - loss: 0.4709 - accuracy: 0.8415
+[1]<stdout>:313/313 - 1s - loss: 0.4517 - accuracy: 0.8490
+[3]<stdout>:313/313 - 1s - loss: 0.4521 - accuracy: 0.8487
+[0]<stdout>:Test Loss: 0.5262874364852905
+[0]<stdout>:Test Accuracy: 0.8277249336242676
