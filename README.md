@@ -10,3 +10,4 @@ Répertoire de plusieurs projets de Quentin BATISTE
 - Projet Python: Projet en python pour réaliser un terminal de gestion de stock et des commandes
 - Projet Sudoku: Projet en C pour résoudre des sudokus de différentes difficultées avec l'algorithme du recuit simulé et la parallélisation
 - Projet Traitement d'image: Projet en python pour réaliser des opérations sur des images comme le redimensionnement intelligent (seam carving).
+- Projet OpenGL: Projet en OpenGL (C++), pour réaliser une scène avec des balles se déplaçant dans un cube.

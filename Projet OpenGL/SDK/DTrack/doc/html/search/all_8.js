@@ -1,0 +1,9 @@
+var searchData=
+[
+  ['id',['id',['../struct_d_track_s_d_k___datatypes_1_1_d_track___marker___type__d.html#ae56b8ade90cdd348299ce09cc341649b',1,'DTrackSDK_Datatypes::DTrack_Marker_Type_d::id()'],['../struct_d_track_s_d_k___datatypes_1_1_d_track___body___type__d.html#a8726fadd444fe2fd89260827bc8fda49',1,'DTrackSDK_Datatypes::DTrack_Body_Type_d::id()'],['../struct_d_track_s_d_k___datatypes_1_1_d_track___inertial___type__d.html#ab112c3a0fb447bb1eb9053c74e26d0f1',1,'DTrackSDK_Datatypes::DTrack_Inertial_Type_d::id()'],['../struct_d_track_s_d_k___datatypes_1_1_d_track___fly_stick___type__d.html#a43308a2f26feb128213ac380dc605143',1,'DTrackSDK_Datatypes::DTrack_FlyStick_Type_d::id()'],['../struct_d_track_s_d_k___datatypes_1_1_d_track___mea_tool___type__d.html#a955edf61e5e4b0149567a7d1e8976326',1,'DTrackSDK_Datatypes::DTrack_MeaTool_Type_d::id()'],['../struct_d_track_s_d_k___datatypes_1_1_d_track___mea_ref___type__d.html#a51b525184a550620abaecad5e37a6f69',1,'DTrackSDK_Datatypes::DTrack_MeaRef_Type_d::id()'],['../struct_d_track_s_d_k___datatypes_1_1_d_track___hand___type__d.html#adee098f364c513147eb85b4a83cd1f2d',1,'DTrackSDK_Datatypes::DTrack_Hand_Type_d::id()'],['../struct_d_track_s_d_k___datatypes_1_1_d_track___human___type__d.html#a3d528bba02df1fae02388910fcf0a54e',1,'DTrackSDK_Datatypes::DTrack_Human_Type_d::id()']]],
+  ['init',['init',['../class_d_track_s_d_k.html#a0defeef0fe1a8962b53d986a9c9b3018',1,'DTrackSDK']]],
+  ['iscommandinterfacevalid',['isCommandInterfaceValid',['../class_d_track_s_d_k.html#a14055eacbc3fa15e7631f57da460e95b',1,'DTrackSDK']]],
+  ['islocaldataportvalid',['isLocalDataPortValid',['../class_d_track_s_d_k.html#a2d679e3b77f0acc3f3f9307e97acb96c',1,'DTrackSDK']]],
+  ['istcpvalid',['isTCPValid',['../class_d_track_s_d_k.html#a7a0f7d8478fe99f95654f4a66dee147e',1,'DTrackSDK']]],
+  ['isudpvalid',['isUDPValid',['../class_d_track_s_d_k.html#a2616692c50d8832f1a72a585ac7df26b',1,'DTrackSDK']]]
+];
