@@ -9,3 +9,4 @@ Répertoire de plusieurs projets de Quentin BATISTE
 - Projet PLSQL : Projet PLSQL réalisé en sql (utilisation sur le site internet d'oracle)
 - Projet Python: Projet en python pour réaliser un terminal de gestion de stock et des commandes
 - Projet Sudoku: Projet en C pour résoudre des sudokus de différentes difficultées avec l'algorithme du recuit simulé et la parallélisation
+- Projet Traitement d'image: Projet en python pour réaliser des opérations sur des images comme le redimensionnement intelligent (seam carving).
