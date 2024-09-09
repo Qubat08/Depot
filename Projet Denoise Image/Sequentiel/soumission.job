@@ -1,0 +1,40 @@
+#!/bin/bash
+#SBATCH --job-name=denoise_job        # Nom du job
+#SBATCH --output=denoise_job.out      # Nom du fichier de sortie
+#SBATCH --error=denoise_job.err       # Nom du fichier d'erreur
+
+#SBATCH --time=00:30:00               # Temps maximum d'exécution
+#SBATCH --ntasks=1                    # Nombre de tâches
+#SBATCH --cpus-per-task=8            # Nombre de CPUs par tâche
+#SBATCH --reservation=CHPS            # Réservation CHPS
+#SBATCH -p instant                      # Choix partition
+
+# Vérification que le fichier a été passé en paramètre
+if [ "$#" -ne 2 ]; then
+    echo "Usage: $0 <nom_image> <nom_fichier_noised>"
+    exit 1
+fi
+
+IMAGE=$1
+FILENAME=$2
+
+# Charger les modules requis
+module load python/3.10.11-tensorflow2.10
+module load opencv/4.5.2-contrib-gcc8
+
+
+# Revenir au répertoire principal pour générer les images bruitées
+make 
+./opencv_test.pgr img/$IMAGE
+
+source myenv/bin/activate
+python3 jpgtoppm.py
+
+# Appeler le programme pour débruiter l'image
+# Image s'appelle soit noised_res pour l'image en couleur, soit grey_res pour l'image en gris
+
+./denoise.pgr res/$FILENAME.ppm
+
+python3 ppmtojpg.py
+
+deactivate
