@@ -1,4 +1,0 @@
-[1]<stdout>:313/313 - 1s - loss: 0.4738 - accuracy: 0.8418
-[0]<stdout>:313/313 - 1s - loss: 0.4495 - accuracy: 0.8496
-[0]<stdout>:Test Loss: 0.4616372287273407
-[0]<stdout>:Test Accuracy: 0.8457000255584717
